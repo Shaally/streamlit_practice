@@ -66,7 +66,6 @@ def gensalt(rounds: int = 12, prefix: bytes = b"2b") -> bytes:
         + b"$"
         + ("%2.2u" % rounds).encode("ascii")
         + b"$"
-        + output
     )
 
 
