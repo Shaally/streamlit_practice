@@ -10,7 +10,7 @@ import pickle
 class Login:
     def __init__(self):
         # info.pkl 用來儲存帳號密碼資訊
-        self.information_path = 'D:/project/SmartEvaluation/info.pkl'
+        self.information_path = './info.pkl'
         with open(self.information_path, 'rb') as f:
             self.credentials = pickle.load(f)
         # 建立"申請帳號"按鈕session
@@ -131,7 +131,7 @@ class Login:
             # 設定title
             col1, col2, col3, col4 = title_container.columns([3, 3, 1, 1])
             # with col1:
-            #     img = Image.open('D:/project/SmartEvaluation/title.png')
+            #     img = Image.open('./title.png')
             #     streamlit.image(img, use_column_width=True)
             with col3:
                 streamlit.button(username, use_container_width=True)
@@ -156,7 +156,7 @@ if __name__ == "__main__":
     # header(core3 logo、智能評估書 button、設備驗收平台 button、DCFX標準 button)
     col1, col2, col3 = streamlit.columns([3, 0.5, 5])
     with col1:
-        image = Image.open('D:/project/SmartEvaluation/core3_logo.png')
+        image = Image.open('./core3_logo.png')
         streamlit.image(image, use_column_width=True)
     with col3:
         col3_1, col3_2, col3_3 = streamlit.columns(3)
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     col1, col2, col3 = title_container.columns([1, 3, 1])
     if not authentication_status:  # 還沒成功登入才要顯示 title 圖片
         with col2:
-            img = Image.open('D:/project/SmartEvaluation/title_login.png')
+            img = Image.open('./title_login.png')
             streamlit.image(img, use_column_width=True)
 
     login_obj.user_login(authentication_status)  # 處理登入會遇到的狀況
