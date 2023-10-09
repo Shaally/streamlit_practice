@@ -10,7 +10,7 @@ import pickle
 class Login:
     def __init__(self):
         # info.pkl 用來儲存帳號密碼資訊
-        self.information_path = 'D:/project/SmartEvaluation/info.pkl'
+        self.information_path = './info.pkl'
         with open(self.information_path, 'rb') as f:
             self.credentials = pickle.load(f)
         # 建立申請帳號按鈕session
