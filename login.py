@@ -135,7 +135,7 @@ class Login:
             with col2:
                 streamlit.empty()  # 先藏原本的title圖片
             # with col1:
-            #     img = Image.open('D:/project/SmartEvaluation/title.png')
+            #     img = Image.open('./title.png')
             #     streamlit.image(img, use_column_width=True)
             with col3:
                 streamlit.button(username, use_container_width=True)
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     # header
     col1, col2, col3 = streamlit.columns([3, 0.5, 5])
     with col1:
-        image = Image.open('D:/project/SmartEvaluation/core3_logo.png')
+        image = Image.open('./core3_logo.png')
         streamlit.image(image, use_column_width=True)
     with col3:
         col3_1, col3_2, col3_3 = streamlit.columns(3)
@@ -185,7 +185,7 @@ if __name__ == "__main__":
     col1, col2, col3 = title_container.columns([1, 3, 1])
     if not authentication_status:  # 還沒成功登入才要顯示 title 圖片
         with col2:
-            img = Image.open('D:/project/SmartEvaluation/title_login.png')
+            img = Image.open('./title_login.png')
             streamlit.image(img, use_column_width=True)
 
     # 申請帳號
