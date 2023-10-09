@@ -51,34 +51,34 @@ class Login:
     def set_style(self):
         streamlit.markdown("""<style>
                             div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(1) > div.st-emotion-cache-14qiv68.e1f1d6gn1 > div:nth-child(1) > div > div > div:nth-child(1) > div:nth-child(1) > div > div > div > button {
-                               background-color: #d1e2ed;
+                               background-color: #FFFFFF;
                                color:#090814;
                                border-radius: 0.75rem;
                                }
                             div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(1) > div.st-emotion-cache-14qiv68.e1f1d6gn1 > div:nth-child(1) > div > div > div:nth-child(1) > div:nth-child(1) > div > div > div > button:hover {
-                                background-color: #487ad9;
+                                background-color: #87CEFA;
                                 color:#ff0000;
                             }
                            </style>""", unsafe_allow_html=True)
         streamlit.markdown("""<style>
                             div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(1) > div.st-emotion-cache-14qiv68.e1f1d6gn1 > div:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(1) > div > div > div > button {
-                                background-color: #d1e2ed;
+                                background-color: #FFFFFF;
                                 color:#090814;
                                 border-radius: 0.75rem;
                                 }
                             div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(4) > div.st-emotion-cache-14qiv68.e1f1d6gn1 > div:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(1) > div > div > div > button:hover {
-                                background-color: #487ad9;
+                                background-color: #87CEFA;
                                 color:#ff0000;
                             }
                             </style>""", unsafe_allow_html=True)
         streamlit.markdown("""<style>
                             div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(1) > div.st-emotion-cache-14qiv68.e1f1d6gn1 > div:nth-child(1) > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div > button {
-                                background-color: #d1e2ed;
+                                background-color: #FFFFFF;
                                 color:#090814;
                                 border-radius: 0.75rem;
                                 }
                             div:nth-child(1) > div.withScreencast > div > div > div > section > div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4 > div:nth-child(1) > div > div:nth-child(1) > div.st-emotion-cache-14qiv68.e1f1d6gn1 > div:nth-child(1) > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div > button:hover {
-                                background-color: #487ad9;
+                                background-color: #87CEFA;
                                 color:#ff0000;
                             }
                             </style>""", unsafe_allow_html=True)
